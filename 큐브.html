@@ -2,60 +2,85 @@
 <html>
 <head>
   <style>
+  body{margin: 0;}
   #zun{font-size:30px;}
   .zun2{font-style:italic;}
+  #cube{display: grid;
+  grid-template-columns: 100px 1fr;}
+  #cube #cubee{padding-left:0px;
+                margin-left: 110px;}
   img:hover{opacity:0.7;}
+  a{color:red;
+    text-decoration:none;}
+  h1{border-bottom: 2px solid blue;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+  ul{
+    border-right: 2px solid blue;
+    padding: 20px;
+    margin: 0px;
+    width: 150px;
+    }
+    @media (max-width:800px) {#cube{display: block;}
+      ul{border-right:none;}
+      h1{border-bottom: none;}
+    }
   </style>
   <meta charset="utf-8">
 </head>
 <body>
 <h1>큐브에 대해</h1>
-<ul>
-  <li><a href="큐브의 역사.html"> 큐브의 역사</a></li>
-  <li><a href="큐브의 종류.html">큐브의 종류</a></li>
-  <li><a href="큐브세계최고기록들.html">큐브세계최고기록들</a></li>
-  <li><a href="https://cubenjoy.com/?NaPm=ct%3Djk4x7bj0%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D55ddc4b1b924489e35190fe4b8a1f62077e4001f">큐브 파는 곳</a></li>
-  <li><a href="https://namu.wiki/w/%ED%81%90%EB%B8%8C%EC%97%94%EC%A1%B0%EC%9D%B4">더 많은 정보를 알고 싶으면 이 글을 클릭하시오</a></li>
-</ul>
-<p id="zun" class="zun2">큐브는 매우 <u>창조적</u>이며 <strong>공식</strong>을 외워서 맞추는 것이다.</p>
-<p><img src="큐브.jpg" width=300></p>
-<h2>큐브를 잘한 사람만이 사회에서 성공하는 것이 아니다 맞춘것을 응용할 줄 알아야 한다</h2>
-<p><div id="disqus_thread"></div>
-<script>
+<div id="cube">
+  <ul>
+    <li><a href="큐브의 역사.html"> 큐브의 역사</a></li>
+    <li><a href="큐브의 종류.html">큐브의 종류</a></li>
+    <li><a href="큐브세계최고기록들.html">큐브세계최고기록들</a></li>
+    <li><a href="https://cubenjoy.com/?NaPm=ct%3Djk4x7bj0%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D55ddc4b1b924489e35190fe4b8a1f62077e4001f">큐브 파는 곳</a></li>
+    <li><a href="https://namu.wiki/w/%ED%81%90%EB%B8%8C%EC%97%94%EC%A1%B0%EC%9D%B4">더 많은 정보를 알고 싶으면 이 글을 클릭하시오</a></li>
+  </ul>
+<div id="cubee">
+  <p id="zun" class="zun2">큐브는 매우 <u>지식적</u>이며 <strong>공식</strong>을 외워서 맞추는 것이다.</p>
+  <p><img src="큐브.jpg" width=300></p>
+  <h2>큐브를 잘한 사람만이 사회에서 성공하는 것이 아니다 맞춘것을 응용할 줄 알아야 한다</h2>
+  <p><div id="disqus_thread"></div>
+  <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://cube-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://cube-1.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-</p>
-<p>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b650218df040c3e9e0c479f/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</p>
+  </p>
+  <p>
+    <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5b650218df040c3e9e0c479f/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  </p>
+</div>
 </body>
 </html>
