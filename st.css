@@ -1,0 +1,27 @@
+body{margin: 0;}
+#zun{font-size:30px;}
+.zun2{font-style:italic;}
+#cube{display: grid;
+grid-template-columns: 100px 1fr;}
+#cube #cubee{padding-left:0px;
+              margin-left: 110px;}
+img:hover{opacity:0.7;}
+a{color:red;
+  text-decoration: none;}
+h1{border-bottom: 2px solid blue;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+ul{
+  border-right: 2px solid blue;
+  padding: 20px;
+  margin: 0px;
+  width: 150px;
+}
+@media(max-width:800px){#cube{display:block;}
+        ul{border-right:none;}
+        h1{border-bottom:none;}
+
+
+}
